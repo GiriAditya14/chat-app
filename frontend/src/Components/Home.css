@@ -1,0 +1,17 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url('https://static.vecteezy.com/system/resources/previews/030/633/183/non_2x/black-and-yellow-background-with-a-black-backgrou-free-photo.jpg');
+    /* background: url('https://c4.wallpaperflare.com/wallpaper/818/847/641/artistic-wallpaper-preview.jpg'); */
+    /* background: url('https://images.unsplash.com/photo-1503455637927-730bce8583c0?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
+
+}
+
+@media screen and (max-width:480px) {
+    .home{
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+}
